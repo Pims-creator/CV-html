@@ -1,0 +1,131 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+    display: flex;   
+}
+*{
+    color:rgb(37, 53, 39);
+}
+
+h1,h2,h3{
+    color: red;
+}
+
+.colonne-1{
+    display: flex;
+    background-color: rgb(230, 159, 6);
+    justify-content: center;
+    align-items: center;
+    min-width: 30%;
+    padding: 20px;
+}
+
+.profil-picture{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.colonne-2{
+    display: flex;
+    background-color: rgb(114, 240, 152);
+    min-width: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+aside{
+    background-color: rgb(188, 139, 216);
+    padding: 2rem;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+
+}
+
+.container{
+    display: flex;
+
+}
+aside .bloc{
+    padding: 2rem;
+}
+aside .bloc h2{
+    padding: 1rem 0;
+    color: blue;
+
+}
+aside .bloc h3{
+    padding: 0.5rem 0;
+}
+aside .bloc .bar-skill{
+    background: gray;
+    height: 5px;
+    margin: 20px 0;
+    position: relative;
+
+}
+aside .bloc .bar-skill .bar-skill-progress-html{
+    background: blue;
+    height: 5px;
+    top: 0px;
+    left: 0px;
+    width: 80%;
+}
+aside .bloc .bar-skill .bar-skill-progress-JAVA{
+    background: blue;
+    height: 5px;
+    top: 0px;
+    left: 0px;
+    width: 70%;
+}
+aside .bloc .bar-skill .bar-skill-progress-CSS{
+    background: blue;
+    height: 5px;
+    top: 0px;
+    left: 0px;
+    width: 60%;
+}
+aside .bloc .star-container{
+    display: flex;
+    margin: 1rem 0 1.5rem;
+    color: blue;
+}
+aside .bloc .star-container i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+aside .bloc .star-container .star-blue{
+    color: grey;
+}
+.contact{
+    display:flex;
+    flex-direction: column;
+}
+
+.contact i{
+    padding: 0px 1.5rem;
+}
+
+main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+main .profil{
+    padding: 0px 2rem;
+    
+
+}
+main .profil h2{
+    padding: 1rem 0;
+}
+
+main .bloc{
+    padding: 2rem;
